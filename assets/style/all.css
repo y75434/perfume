@@ -8374,6 +8374,10 @@ a {
 .follow {
   background-image: url("../images/index10.jpg"); }
 
+.pic {
+  position: relative;
+  overflow: hidden; }
+
 .card:hover {
   -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
           box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3); }

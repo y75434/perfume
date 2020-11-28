@@ -13,4 +13,8 @@ a {
 .follow {
   background-image: url("../images/index10.jpg"); }
 
+.pic {
+  position: relative;
+  overflow: hidden; }
+
 /*# sourceMappingURL=index.css.map */
