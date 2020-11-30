@@ -12,11 +12,12 @@
 
 <body>
   
-<nav class="navbar navbar-expand-lg navbar-light bg-white d-flex ">
-  <h1 >
-    <a href="index.html"><img src="../assets/images/d’Perfume.png"></a>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white d-flex p-0">
+  <h1>
+    <a href="index.html"><img class="w-auto" src="../assets/images/d’Perfume.png"></a>
   </h1>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item h5">
         <a class="nav-link " href="product.html"><i class="fas fa-store-alt d-none d-lg-inline-block"></i>Product</a>
@@ -32,29 +33,62 @@
       </li>
     </ul>
   </div>
+  <div class=" d-lg-none d-flex align-items-center justify-content-end">
+    <a class="nav-link" href="#">
+      <i class="fas fa-shopping-cart text-dark"></i>
+      <span class="badge badge-pill badge-primary" style="transform: translateX(-7px) translateY(-8px)">
+        3
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light col-12 p-0 d-lg-none">
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 bg-light">
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="product.html">Product</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Wishlist</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Blog</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Contact</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="login.html">log in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </nav>
+
 
 
    <nav class="navbar navbar-expand-lg navbar-light bg-danger info">
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">CHANEL</a>
+        <a class="nav-link text-white" href="#">CHANEL</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Jo Malone</a>
+        <a class="nav-link text-white" href="#">Jo Malone</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Curology</a>
+        <a class="nav-link text-white" href="#">Curology</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Dior</a>
+        <a class="nav-link text-white" href="#">Dior</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Chloe</a>
+        <a class="nav-link text-white" href="#">Chloe</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ZARA</a>
+        <a class="nav-link text-white" href="#">ZARA</a>
       </li>
     </ul>
   </div>
@@ -76,15 +110,15 @@
 
 
   <div class="container">
-    <div class="row no-gutters flex-column-reverse flex-md-row mb-4 mb-md-0">
-      <div class="col-12 col-md-6 d-flex align-items-md-center justify-content-md-center">
-        <div class="text">
-        <h2 class="mb-2">Gabrielle CHANEL</h2>
-        <p class="mb-2 mb-md-3">全新嗅覺體驗，花香四溢、明亮馥郁。<br>結合茉莉、依蘭依蘭、橙花和最迷人的<br>格拉斯晚香玉之花香，呈現出夢幻花香<br>氣息。極具女性特質的香奈兒嘉柏麗香<br>水，專為光芒四射的她而生。</p>
-        <a href="#" class="text-primary p-0">查看更多</a>
-          </div>
+    <div class="row w-100 no-gutters flex-column-reverse flex-md-row mb-4 mb-md-0">
+      <div class="col-12 col-md-6  d-flex align-items-md-center justify-content-md-center">
+        <div class="text ">
+          <h2 class="mb-2">Gabrielle CHANEL</h2>
+          <p class="mb-2 mb-md-3">全新嗅覺體驗，花香四溢、明亮馥郁。<br>結合茉莉、依蘭依蘭、橙花和最迷人的<br>格拉斯晚香玉之花香，呈現出夢幻花香<br>氣息。極具女性特質的香奈兒嘉柏麗香<br>水，專為光芒四射的她而生。</p>
+          <a href="#" class="text-primary p-0">查看更多</a>
+        </div>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 ">
         <img class="img-fluid mb-2 mb-md-0" src="../assets/images/index2.jpg">
       </div>
     </div>
@@ -94,9 +128,10 @@
       </div>
       <div class="col-12 col-md-6 d-flex align-items-md-center justify-content-md-center">
         <div class="text">
-        <h2 class="mb-2">Five O’clock Au Gingembre</h2>
-        <p class="mb-2 mb-md-3">生薑與溫醇的肉桂香、紅糖的香甜摻和<br>成一氣，溫暖微辛的氣息反倒形成一股<br>輕煙氤氳開來，還帶點微微煙醺感漫溢<br>在整個鼻息之間，細聞之下,又還有溫溫<br>淡淡的木香，溫和而暖心。</p>
-        <a href="#" class="text-primary p-0">查看更多</a>
+          <h2 class="mb-2">Five O’clock Au Gingembre</h2>
+          <p class="mb-2 mb-md-3">生薑與溫醇的肉桂香、紅糖的香甜摻和<br>成一氣，溫暖微辛的氣息反倒形成一股<br>輕煙氤氳開來，還帶點微微煙醺感漫溢<br>在整個鼻息之間，細聞之下,又還有溫溫<br>淡淡的木香，溫和而暖心。</p>
+          <a href="#" class="text-primary p-0">查看更多</a>
+        </div>
       </div>
     </div>
     <div class="row no-gutters flex-column-reverse flex-md-row mb-4 mb-md-0">
@@ -116,17 +151,17 @@
         <img class="img-fluid mb-2 mb-md-0" src="../assets/images/index5.jpg">
       </div>
       <ul class="col-12 col-md-6 list-unstyled ">
-        <li class="m-5">
-          <h4 class="mb-2 ">1. Levels of Preventive Maintenance Compliance</h4>
-          <p class="mb-2 mb-md-3">The core idea of preventative maintenance is the performance of proactive actions against unscheduled downtime in order to identify potential defects before they evolve into something more severe.</p>
+        <li class="m-5 ">
+          <h4 class="mb-2 ">1.<br> Levels of Preventive <br>Maintenance Compliance</h4>
+          <p class="mb-2 mb-md-3">The core idea of preventative maintenance is<br> the performance of proactive actions against<br> unscheduled downtime in order to identify<br> potential defects before they evolve into <br>something more severe.</p>
         </li>
         <li class="m-5">
-          <h4 class="mb-2">2. Percentage of Planned Maintenance</h4>
-          <p class="mb-2 mb-md-3">The planned maintenance percentage is the total planned maintenance time in your CMMS software over a date range over the total number of hours of a service performed by the technicians.</p>
+          <h4 class="mb-2">2.<br> Percentage of Planned <br>Maintenance</h4>
+          <p class="mb-2 mb-md-3">The planned maintenance percentage is the<br> total planned maintenance time in your CMMS<br> software over a date range over the total<br> number of hours of a service performed by the <br>technicians.</p>
         </li>
         <li class="m-5">
-          <h4 class="mb-2">3. Critical percentage of planned maintenance</h4>
-          <p class="mb-2 mb-md-3">Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that should be performed immediately.</p>
+          <h4 class="mb-2">3.<br> Critical percentage of<br> planned maintenance</h4>
+          <p class="mb-2 mb-md-3">Calculating the critical percentage of planned <br>maintenance will help you prioritize the most<br> important operations that should be<br> performed immediately.</p>
         </li>
         <li class="m-5 justify-content-center">
           <a class="btn btn-outline-dark btn-lg rounded-pill" href="#" role="button">Plan a free online training</a>
@@ -137,30 +172,30 @@
   
 
   <div class="bg-success">
-    <div class="container container-fluid bg-success">
-      <ul class="row list-unstyled">
+    <div class="container container-fluid p-5">
+      <ul class="row list-unstyled d-flex align-items-center">
         <li class="col-12 col-md-4 ">
-          <div class="pic">
-            <img src="../assets/images/index6.jpg" >
-          </div>
-          <h5>Poppy & Barley</h5>
+          <img src="../assets/images/index6.jpg" class="img-fluid " style="height: 80vh">
+          <h5 class="mt-1">Poppy & Barley</h5>
           <p>Jo Malone</p>
           <div class="d-flex">
             <p>NT$1,380</p>
-            <p>NT$1,580</p>
+            <del class="text-secondary ml-1">NT$1,580</del>
           </div>
         </li>
         <li class="col-12 col-md-4">
-          <img src="../assets/images/index7.jpg" >
-          <h5>Body Wash</h5>
+          <img src="../assets/images/index7.jpg" class="img-fluid" style="height: 80vh">
+          <h5 class="mt-1">Body Wash</h5>
           <p>Curology</p>
           <p>NT$1,580</p>
         </li>
         <li class="col-12 col-md-4">
-          <div class="label">Sold out</div>
-          <img src="../assets/images/index8.jpg" >
-          <h5>Apple Cider Vinegar Capsule</h5>
-          <p>Tonik</p>
+          <img src="../assets/images/index8.jpg" class="img-fluid" style="height: 80vh">
+          <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+            <h4 class="m-0 text-white">Sold out</h4>
+          </div>
+          <h5 class="mt-1">Apple Cider Vinegar Capsule</h5>
+          <p class="pt-1">Tonik</p>
           <p>NT$1,580</p>
         </li>
       </ul>
@@ -226,7 +261,9 @@
 </nav>
     
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

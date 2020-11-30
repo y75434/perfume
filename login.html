@@ -12,11 +12,12 @@
 
 <body>
   
-<nav class="navbar navbar-expand-lg navbar-light bg-white d-flex ">
-  <h1 >
-    <a href="index.html"><img src="../assets/images/d’Perfume.png"></a>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white d-flex p-0">
+  <h1>
+    <a href="index.html"><img class="w-auto" src="../assets/images/d’Perfume.png"></a>
   </h1>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item h5">
         <a class="nav-link " href="product.html"><i class="fas fa-store-alt d-none d-lg-inline-block"></i>Product</a>
@@ -32,29 +33,62 @@
       </li>
     </ul>
   </div>
+  <div class=" d-lg-none d-flex align-items-center justify-content-end">
+    <a class="nav-link" href="#">
+      <i class="fas fa-shopping-cart text-dark"></i>
+      <span class="badge badge-pill badge-primary" style="transform: translateX(-7px) translateY(-8px)">
+        3
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light col-12 p-0 d-lg-none">
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 bg-light">
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="product.html">Product</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Wishlist</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Blog</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="#">Contact</a>
+        </li>
+        <li class="nav-item text-center border-bottom">
+          <a class="nav-link text-white h4" href="login.html">log in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </nav>
+
 
 
    <nav class="navbar navbar-expand-lg navbar-light bg-danger info">
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">CHANEL</a>
+        <a class="nav-link text-white" href="#">CHANEL</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Jo Malone</a>
+        <a class="nav-link text-white" href="#">Jo Malone</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Curology</a>
+        <a class="nav-link text-white" href="#">Curology</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Dior</a>
+        <a class="nav-link text-white" href="#">Dior</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Chloe</a>
+        <a class="nav-link text-white" href="#">Chloe</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ZARA</a>
+        <a class="nav-link text-white" href="#">ZARA</a>
       </li>
     </ul>
   </div>
@@ -64,10 +98,10 @@
 
 <div class="container mt-5 mb-5">
   <div class="row align-items-center">
-    <div class="col-md-8 ">
+    <div class="col-md-8 col-12">
       <img src="../assets/images/login1.jpg" >
     </div>
-    <div class="col-md-4 ">
+    <div class="col-md-4 col-12">
       <h2 class="mb-2">Log in</h2>
       <form>
         <div class="form-group">
@@ -78,8 +112,8 @@
           <label for="password">密碼</label>
           <input class="form-control" type="text" id="password" placeholder="Password">
         </div>
-        <div class="d-flex justify-content-between">
-          <a href="#">忘記密碼</a>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#" class="p-0">忘記密碼</a>
           <div class="button">
             <a href="#" class="btn btn-outline-primary">註冊</a>
             <a href="#" class="btn btn-primary">登入</a>
@@ -116,7 +150,9 @@
 </nav>
     
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
