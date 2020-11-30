@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout.scss"],"names":[],"mappings":"AAAA;EACE,WAAW;EACX,YAAY;EACZ,oBAAiB;KAAjB,iBAAiB,EAAA;;AAGnB;EACE,6BAA6B,EAAA","file":"layout.css","sourcesContent":[".pic{\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.navbar-nav .nav-item{\n  border-bottom: 1px solid #fff;\n}\n"]}
