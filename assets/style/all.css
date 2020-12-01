@@ -8364,7 +8364,7 @@ a {
   padding: 18px 60px; }
 
 .banner {
-  background-image: url("images/index1.jpg");
+  background-image: url("../images/index1.jpg");
   height: calc(100vh - 64px);
   background-repeat: no-repeat;
   background-position: center;
@@ -8372,7 +8372,7 @@ a {
   color: #fff; }
 
 .follow {
-  background-image: url("images/index10.jpg"); }
+  background-image: url("../images/index10.jpg"); }
 
 .card:hover {
   -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
