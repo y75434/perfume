@@ -8371,6 +8371,11 @@ a {
   background-size: cover;
   color: #fff; }
 
+.bannerBtn {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 80%; }
+
 .follow {
   background-image: url("../images/index10.jpg"); }
 
